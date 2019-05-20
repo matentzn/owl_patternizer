@@ -6,3 +6,4 @@ target/
 .plhistory
 examples/gen-*
 examples/init-*
+.DS_Store
