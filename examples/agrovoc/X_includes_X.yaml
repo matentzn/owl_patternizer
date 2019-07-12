@@ -1,31 +1,26 @@
-# options: [min(2),dir('target/agrovoc'),trim(true)]
+# options: [min(6),dir('examples/agrovoc'),trim(true),base('http://purl.obolibrary.org/obo/agrovoc'),generalize_properties(false),max_and_cardinality(4),max_class_signature(5),annotations([ann(exact_synonym,oio:hasExactSynonym,0.05),ann(related_synonym,oio:hasRelatedSynonym,0.05)])]
 pattern_name: X includes X
-pattern_iri: http://purl.obolibrary.org/obo/foo/X_includes_X
+pattern_iri: http://purl.obolibrary.org/obo/agrovoc/X_includes_X
 
 description: >-
   This is auto-generated. Add your description here
 
-  Examples: [housing cooperatives](http://aims.fao.org/aos/agrovoc/c_11630), [forest management planning](http://aims.fao.org/aos/agrovoc/c_1374839730376), [women farmers](http://aims.fao.org/aos/agrovoc/c_9001030) (11 total)
+  Examples: [agricultural colleges](http://aims.fao.org/aos/agrovoc/c_8668), [housing cooperatives](http://aims.fao.org/aos/agrovoc/c_11630), [fishery cooperatives](http://aims.fao.org/aos/agrovoc/c_50341) (95 total)
 
 classes: 
-  cereals: "http://aims.fao.org/aos/agrovoc/c_1474"
-  housing: "http://aims.fao.org/aos/agrovoc/c_3678"
-  associations: "http://aims.fao.org/aos/agrovoc/c_37955"
-  planning: "http://aims.fao.org/aos/agrovoc/c_5951"
-  rock: "http://aims.fao.org/aos/agrovoc/c_6628"
-  women: "http://aims.fao.org/aos/agrovoc/c_8420"
+  owl:Thing: "owl:Thing"
 
 
 relations: 
-  includes: "agrovoc:includes"
+  includes: "http://aims.fao.org/aos/agrontology#includes"
 
 
 vars:
-  v0: "'cooperatives' or 'forest management' or 'farmers' or 'mechanics' or 'water user groups' or 'Secale'"
-  v1: "'cereals' or 'housing' or 'associations' or 'planning' or 'rock' or 'women'"
+  v0: "'owl:Thing'"
+  v1: "'owl:Thing'"
 
 name:
-  # Induced, frequency=0.2727272727272727, p=http://www.w3.org/2000/01/rdf-schema#label 
+  # Induced, frequency=0.031578947368421054, p=http://www.w3.org/2000/01/rdf-schema#label 
   text: "%s %s"
   vars:
     - v1
@@ -38,9 +33,15 @@ def:
     - v0
     - v1
 
+annotationProperties:
+  exact_synonym: "oio:hasExactSynonym"
+  related_synonym: "oio:hasRelatedSynonym"
+
+# could not infer annotations
+
 
 equivalentTo:
-  text: "%s and ('includes' some %s)"
+  text: "(%s and ('includes' some %s))"
   vars:
     - v0
     - v1

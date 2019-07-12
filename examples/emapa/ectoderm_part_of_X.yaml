@@ -1,0 +1,67 @@
+# options: [min(12),dir('examples/emapa'),trim(true),base('http://purl.obolibrary.org/obo/emapa'),generalize_properties(false),max_and_cardinality(4),max_class_signature(5),annotations([ann(exact_synonym,oio:hasExactSynonym,0.05),ann(related_synonym,oio:hasRelatedSynonym,0.05)])]
+pattern_name: ectoderm part_of X
+pattern_iri: http://purl.obolibrary.org/obo/emapa/ectoderm_part_of_X
+
+description: >-
+  This is auto-generated. Add your description here
+
+  Examples: [embryo ectoderm](http://purl.obolibrary.org/obo/EMAPA_16069), [extraembryonic ectoderm](http://purl.obolibrary.org/obo/EMAPA_16065), [amniotic fold ectoderm](http://purl.obolibrary.org/obo/EMAPA_16077) (19 total)
+
+classes: 
+  embryo: "http://purl.obolibrary.org/obo/EMAPA_16039"
+  extraembryonic component: "http://purl.obolibrary.org/obo/EMAPA_16042"
+  amniotic fold: "http://purl.obolibrary.org/obo/EMAPA_16076"
+  amnion: "http://purl.obolibrary.org/obo/EMAPA_16109"
+  chorion: "http://purl.obolibrary.org/obo/EMAPA_16112"
+  branchial arch: "http://purl.obolibrary.org/obo/EMAPA_16117"
+  1st branchial membrane: "http://purl.obolibrary.org/obo/EMAPA_16121"
+  alimentary system: "http://purl.obolibrary.org/obo/EMAPA_16246"
+  buccopharyngeal membrane: "http://purl.obolibrary.org/obo/EMAPA_16259"
+  oral region: "http://purl.obolibrary.org/obo/EMAPA_16262"
+  2nd branchial membrane: "http://purl.obolibrary.org/obo/EMAPA_16273"
+  1st branchial arch mandibular component: "http://purl.obolibrary.org/obo/EMAPA_16382"
+  1st branchial arch maxillary component: "http://purl.obolibrary.org/obo/EMAPA_16388"
+  1st branchial arch maxillary-mandibular groove: "http://purl.obolibrary.org/obo/EMAPA_16394"
+  limb: "http://purl.obolibrary.org/obo/EMAPA_16405"
+  3rd branchial membrane: "http://purl.obolibrary.org/obo/EMAPA_16583"
+  4th branchial membrane: "http://purl.obolibrary.org/obo/EMAPA_16763"
+  branchial groove: "http://purl.obolibrary.org/obo/EMAPA_32750"
+  6th branchial arch: "http://purl.obolibrary.org/obo/EMAPA_32766"
+  ectoderm: "http://purl.obolibrary.org/obo/EMAPA_35985"
+
+
+relations: 
+  part_of: "http://purl.obolibrary.org/obo/emapa#part_of"
+
+
+vars:
+  v0: "'embryo' or 'extraembryonic component' or 'amniotic fold' or 'amnion' or 'chorion' or 'branchial arch' or '1st branchial membrane' or 'alimentary system' or 'buccopharyngeal membrane' or 'oral region' or '2nd branchial membrane' or '1st branchial arch mandibular component' or '1st branchial arch maxillary component' or '1st branchial arch maxillary-mandibular groove' or 'limb' or '3rd branchial membrane' or '4th branchial membrane' or 'branchial groove' or '6th branchial arch'"
+
+name:
+  # Induced, frequency=0.9473684210526315, p=http://www.w3.org/2000/01/rdf-schema#label 
+  text: "%s ectoderm"
+  vars:
+    - v0
+
+def:
+  # Could not induce def, using default
+  text: "Any ectoderm that part_of a %s"
+  vars:
+    - v0
+
+annotationProperties:
+  exact_synonym: "oio:hasExactSynonym"
+  related_synonym: "oio:hasRelatedSynonym"
+
+annotations:
+  - annotationProperty: related_synonym
+    # Induced p=related_synonym 
+    text: "%sic ectoderm"
+    vars:
+      - v0
+
+
+equivalentTo:
+  text: "('ectoderm' and ('part_of' some %s))"
+  vars:
+    - v0

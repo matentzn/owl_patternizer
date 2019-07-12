@@ -1,11 +1,11 @@
-# options: [min(2),dir('target/agrovoc'),trim(true)]
+# options: [min(6),dir('examples/agrovoc'),trim(true),base('http://purl.obolibrary.org/obo/agrovoc'),generalize_properties(false),max_and_cardinality(4),max_class_signature(5),annotations([ann(exact_synonym,oio:hasExactSynonym,0.05),ann(related_synonym,oio:hasRelatedSynonym,0.05)])]
 pattern_name: viruses causes X
-pattern_iri: http://purl.obolibrary.org/obo/foo/viruses_causes_X
+pattern_iri: http://purl.obolibrary.org/obo/agrovoc/viruses_causes_X
 
 description: >-
   This is auto-generated. Add your description here
 
-  Examples: [Borna disease virus](http://aims.fao.org/aos/agrovoc/c_18805), [Duck hepatitis virus](http://aims.fao.org/aos/agrovoc/c_10478), [Pest of small ruminants virus](http://aims.fao.org/aos/agrovoc/c_16581) (11 total)
+  Examples: [Borna disease virus](http://aims.fao.org/aos/agrovoc/c_18805), [Duck hepatitis virus](http://aims.fao.org/aos/agrovoc/c_10478), [Pest of small ruminants virus](http://aims.fao.org/aos/agrovoc/c_16581) (12 total)
 
 classes: 
   viroses: "http://aims.fao.org/aos/agrovoc/c_8260"
@@ -13,14 +13,14 @@ classes:
 
 
 relations: 
-  causes: "agrovoc:causes"
+  causes: "http://aims.fao.org/aos/agrontology#causes"
 
 
 vars:
   v0: "'viroses'"
 
 name:
-  # Induced, frequency=0.9090909090909091, p=http://www.w3.org/2000/01/rdf-schema#label 
+  # Induced, frequency=0.8333333333333334, p=http://www.w3.org/2000/01/rdf-schema#label 
   text: "%s virus"
   vars:
     - v0
@@ -31,8 +31,14 @@ def:
   vars:
     - v0
 
+annotationProperties:
+  exact_synonym: "oio:hasExactSynonym"
+  related_synonym: "oio:hasRelatedSynonym"
+
+# could not infer annotations
+
 
 equivalentTo:
-  text: "'viruses' and ('causes' some %s)"
+  text: "('viruses' and ('causes' some %s))"
   vars:
     - v0

@@ -1,0 +1,6890 @@
+@prefix  inca: <https://w3id.org/inca/> .
+@prefix   owl: <http://www.w3.org/2002/07/owl#> .
+@prefix   xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix  rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix   rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix    uo: <http://purl.obolibrary.org/obo/uo#> .
+@prefix  pato: <http://purl.obolibrary.org/obo/pato#> .
+@prefix  envo: <http://purl.obolibrary.org/obo/envo#> .
+@prefix chebi: <http://purl.obolibrary.org/obo/chebi#> .
+@prefix   obo: <http://purl.obolibrary.org/obo/> .
+
+# Named toplevel resources (284)
+
+obo:AGRO_00000002
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_01000015
+						   obo:BFO_0000015
+						 )
+			    ] .
+
+obo:AGRO_00000004
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000224
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000005
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000225
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000006
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000241
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000028
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000235
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000058
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000062
+						   obo:BFO_0000015
+						 )
+			    ] .
+
+obo:AGRO_00000059
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000062
+						   obo:BFO_0000015
+						 )
+			    ] .
+
+obo:AGRO_00000061
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000006
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000198
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000108
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000021
+						   obo:BFO_0000015
+						 )
+			    ] .
+
+obo:AGRO_00000109
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000021
+						   obo:BFO_0000015
+						 )
+			    ] .
+
+obo:AGRO_00000110
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000021
+						   obo:BFO_0000015
+						 )
+			    ] .
+
+obo:AGRO_00000112
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000197
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000142
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000232
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000192
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000915
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000092
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000199
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000205
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001351
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000032
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000212
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000005
+						   obo:BFO_0000015
+						 )
+			    ] .
+
+obo:AGRO_00000213
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000005
+						   obo:BFO_0000015
+						 )
+			    ] .
+
+obo:AGRO_00000223
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_00000002
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000224
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_00000004
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000225
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_00000005
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000227
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_01000000
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000228
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_00000229
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000229
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000228
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000231
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000230
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000232
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_00000142
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000233
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_00000024
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000234
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_00000025
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000235
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_00000028
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000236
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000416
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000056 ;
+						     owl:someValuesFrom obo:AGRO_00000111
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000299
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001323
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00000078
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000300
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001323
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_01000352
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000305
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000303
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty pato:reciprocal_of ;
+						     owl:someValuesFrom obo:PATO_0001555
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000310
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000309
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty pato:reciprocal_of ;
+						     owl:someValuesFrom obo:PATO_0001555
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000311
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000119
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000309
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000312
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000155
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty pato:reciprocal_of ;
+						     owl:someValuesFrom obo:PATO_0001555
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000313
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000921
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000155
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000314
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000122
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000155
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000319
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000133
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000155
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000326
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000325
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty pato:reciprocal_of ;
+						     owl:someValuesFrom obo:PATO_0001555
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000328
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000133
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00002000
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000356
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000122
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00000114
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000367
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001687
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000360
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000439
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000092
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000440
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:AGRO_00000033
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_00000468
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000921
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00000114
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_01000000
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000227
+						   ]
+						 )
+			    ] .
+
+obo:AGRO_01000019
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000369
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:AGRO_00000325
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_13941
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_28616
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_15377
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24651
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_49637
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_16136
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26833
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_49637
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_16189
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_45696
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_17544
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_acid_of ;
+						     owl:someValuesFrom obo:CHEBI_41609
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_28976
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_17632
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_48107
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_17883
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_49637
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_acid_of ;
+						     owl:someValuesFrom obo:CHEBI_17996
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_17996
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_17883
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_17997
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_25555
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_22916
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_27560
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_22985
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22984
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_23014
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_25741
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_27594
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_23114
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24866
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_17996
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_23117
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_23116
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_23905
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_22563
+						   obo:CHEBI_33238
+						 )
+			    ] .
+
+obo:CHEBI_23906
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33238
+						   obo:CHEBI_36916
+						 )
+			    ] .
+
+obo:CHEBI_24471
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_24473
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_24834
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_22563
+						   obo:CHEBI_36914
+						 )
+			    ] .
+
+obo:CHEBI_24836
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24835
+						   obo:CHEBI_25741
+						 )
+			    ] .
+
+obo:CHEBI_24838
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24835
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:has_functional_parent ;
+						     owl:someValuesFrom obo:CHEBI_26078
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_24839
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24835
+						   obo:CHEBI_24866
+						 )
+			    ] .
+
+obo:CHEBI_24840
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24835
+						   obo:CHEBI_35175
+						 )
+			    ] .
+
+obo:CHEBI_24867
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   obo:CHEBI_33238
+						 )
+			    ] .
+
+obo:CHEBI_25362
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_25367
+						   obo:CHEBI_33259
+						 )
+			    ] .
+
+obo:CHEBI_25696
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_22563
+						   obo:CHEBI_50860
+						 )
+			    ] .
+
+obo:CHEBI_25699
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   obo:CHEBI_50860
+						 )
+			    ] .
+
+obo:CHEBI_25701
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_25741
+						   obo:CHEBI_72695
+						 )
+			    ] .
+
+obo:CHEBI_25806
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_25805
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_26079
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33241
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:has_functional_parent ;
+						     owl:someValuesFrom obo:CHEBI_26078
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_26082
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_28659
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_26217
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26216
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_26218
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24866
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26216
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_26710
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_26714
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_17996
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_26835
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26833
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_29067
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_22563
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_33575
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_29103
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_36916
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26216
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_29310
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_23116
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_32588
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23114
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26216
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_3311
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_46721
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22984
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33242
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24835
+						   obo:CHEBI_33692
+						 )
+			    ] .
+
+obo:CHEBI_33247
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24433
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_substituent_group_from ;
+						     owl:someValuesFrom obo:CHEBI_50860
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33267
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33465
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_25555
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33273
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_22563
+						   obo:CHEBI_36358
+						 )
+			    ] .
+
+obo:CHEBI_33296
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22314
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33299
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22313
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33302
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33300
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33304
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33303
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33306
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33250
+						   obo:CHEBI_33318
+						 )
+			    ] .
+
+obo:CHEBI_33317
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33250
+						   obo:CHEBI_33318
+						 )
+			    ] .
+
+obo:CHEBI_33402
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24833
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26833
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33408
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24833
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33300
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33424
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33241
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26833
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33429
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33238
+						   obo:CHEBI_36830
+						 )
+			    ] .
+
+obo:CHEBI_33431
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33434
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_23116
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33432
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33433
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_23116
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33455
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24833
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_25555
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33457
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24833
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_28659
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33458
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_35406
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_25555
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33459
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_35406
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33300
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33461
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_35406
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_28659
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33482
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_35406
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26833
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33484
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24833
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33303
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33485
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_35406
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33303
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33513
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_36915
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22313
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33535
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33692
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26833
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33579
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33318
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33581
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33317
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33582
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33306
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33608
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_49637
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33659
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33655
+						   obo:CHEBI_72695
+						 )
+			    ] .
+
+obo:CHEBI_33674
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33559
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33675
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33560
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_33702
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_36358
+						   obo:CHEBI_36916
+						 )
+			    ] .
+
+obo:CHEBI_33832
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33595
+						   obo:CHEBI_72695
+						 )
+			    ] .
+
+obo:CHEBI_33958
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24866
+						   obo:CHEBI_37578
+						 )
+			    ] .
+
+obo:CHEBI_33989
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24651
+						   obo:CHEBI_33299
+						 )
+			    ] .
+
+obo:CHEBI_35106
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_35881
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_25555
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_35150
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24651
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22984
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_35156
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24866
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22984
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_35479
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24866
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22314
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_35604
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_35406
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_27594
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_35605
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24833
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_27594
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_35780
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_26078
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_35881
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33692
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33300
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_36093
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24839
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_17996
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_36358
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   obo:CHEBI_36357
+						 )
+			    ] .
+
+obo:CHEBI_36359
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33241
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:has_functional_parent ;
+						     owl:someValuesFrom obo:CHEBI_33457
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_36364
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24866
+						   obo:CHEBI_33299
+						 )
+			    ] .
+
+obo:CHEBI_36586
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_72695
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_23019
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_36587
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_72695
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_46629
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_36902
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33692
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_33303
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_36914
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24835
+						   obo:CHEBI_24870
+						 )
+			    ] .
+
+obo:CHEBI_36915
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_36914
+						   obo:CHEBI_36916
+						 )
+			    ] .
+
+obo:CHEBI_37022
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_22563
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_33709
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_37622
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33256
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_23004
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_37826
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_33241
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:has_functional_parent ;
+						     owl:someValuesFrom obo:CHEBI_26836
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_37838
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_22221
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_substituent_group_from ;
+						     owl:someValuesFrom obo:CHEBI_33575
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_38702
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24839
+						   obo:CHEBI_26714
+						 )
+			    ] .
+
+obo:CHEBI_39123
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_36916
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22984
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_39124
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22984
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_41609
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24870
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_17544
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_43474
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_35780
+						   obo:CHEBI_36914
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_24433
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_45696
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_acid_of ;
+						     owl:someValuesFrom obo:CHEBI_16189
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_base_of ;
+						     owl:someValuesFrom obo:CHEBI_26836
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_48107
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_49637
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty chebi:is_conjugate_acid_of ;
+						     owl:someValuesFrom obo:CHEBI_17632
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_48154
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_25741
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26833
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_48359
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_15339
+						   obo:CHEBI_46787
+						 )
+			    ] .
+
+obo:CHEBI_51082
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24866
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_17632
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_51143
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_23367
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_25555
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_52625
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24835
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_43176
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_62946
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_35175
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_28938
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_63038
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_51084
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_28938
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_63043
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_51084
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_26216
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_63051
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_24838
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_28938
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_64205
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_51084
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_22984
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_72695
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_25367
+						   obo:CHEBI_50860
+						 )
+			    ] .
+
+obo:CHEBI_78017
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:CHEBI_76414
+						   obo:CHEBI_78295
+						 )
+			    ] .
+
+obo:CHEBI_88276
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_16199
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_63038
+						   ]
+						 )
+			    ] .
+
+obo:CHEBI_91238
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_63038
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:CHEBI_64205
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000009
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000004
+						   obo:ENVO_00000123
+						 )
+			    ] .
+
+obo:ENVO_00000019
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000020
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002473 ;
+						     owl:someValuesFrom obo:ENVO_00002010
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000063
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_01000799
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002473 ;
+						     owl:someValuesFrom obo:CHEBI_15377
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000090
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000086
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002131 ;
+						     owl:someValuesFrom obo:ENVO_00000303
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000092
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000091
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002220 ;
+						     owl:someValuesFrom obo:ENVO_00000016
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000129
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000100
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:ENVO_00000023
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000137
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000475
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:ENVO_01001307 ;
+						     owl:someValuesFrom obo:ENVO_00000303
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000156
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01001304
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000097
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000222
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000098
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002354 ;
+						     owl:someValuesFrom obo:ENVO_01000634
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000230
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000043
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000303
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000240
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000043
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:ENVO_00002010
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000243
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000043
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:ENVO_00002011
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000416
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000170
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0001025 ;
+						     owl:someValuesFrom obo:ENVO_00000303
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000423
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000098
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0001025 ;
+						     owl:someValuesFrom obo:ENVO_00000022
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000424
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000098
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0001025 ;
+						     owl:someValuesFrom obo:ENVO_00000020
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000433
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000508
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0001025 ;
+						     owl:someValuesFrom obo:ENVO_00000542
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000450
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:AGRO_00000009
+						   obo:ENVO_00000025
+						 )
+			    ] .
+
+obo:ENVO_00000476
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000475
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000020
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00000485
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000304
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000303
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00001999
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000063
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000447
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00002015
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001995
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002354 ;
+						     owl:someValuesFrom obo:ENVO_01000634
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00002138
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000017
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00002199
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00002150
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00002006
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002220 ;
+						     owl:someValuesFrom obo:ENVO_00000303
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00002261
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001998
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000111
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00003914
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001998
+						   [ a owl:Restriction ;
+						     owl:onProperty envo:has_increased_levels_of ;
+						     owl:someValuesFrom obo:ENVO_00002054
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00005746
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001998
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000261
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00005747
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001998
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0001000 ;
+						     owl:someValuesFrom obo:ENVO_00002170
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00005749
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001998
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000078
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00005750
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001998
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000106
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00005755
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001998
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000114
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00005765
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00005747
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000086 ;
+						     owl:someValuesFrom obo:PATO_0001985
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00005777
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001998
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000262
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00005786
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00001998
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000182
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_00005800
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000017
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_00000097
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000143
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000130
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0001025 ;
+						     owl:someValuesFrom obo:ENVO_00001999
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000179
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000428
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:ENVO_00000097
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000181
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000428
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:ENVO_00000057
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000256
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00010483
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002473 ;
+						     owl:someValuesFrom obo:CHEBI_46662
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000277
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01001125
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002473 ;
+						     owl:someValuesFrom obo:ENVO_00002006
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000297
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000022
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:ENVO_00002011
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000305
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000254
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000086 ;
+						     owl:someValuesFrom obo:PATO_0001305
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000306
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000254
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002507 ;
+						     owl:someValuesFrom obo:ENVO_00002011
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000307
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01001040
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002507 ;
+						     owl:someValuesFrom obo:ENVO_00002006
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000314
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000254
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000086 ;
+						     owl:someValuesFrom obo:PATO_0001657
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000320
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000254
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:ENVO_2100001 ;
+						     owl:someValuesFrom obo:ENVO_00001999
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000321
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000254
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002507 ;
+						     owl:someValuesFrom obo:ENVO_00002149
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000376
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000111
+						   [ a owl:Restriction ;
+						     owl:onProperty envo:has_condition ;
+						     owl:someValuesFrom obo:ENVO_01000375
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000403
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000111
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:ENVO_01000181
+						   ]
+						   [ a owl:Restriction ;
+						     owl:onProperty envo:has_condition ;
+						     owl:someValuesFrom obo:ENVO_01000204
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000624
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000724
+						   obo:ENVO_02500031
+						 )
+			    ] .
+
+obo:ENVO_01000652
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000650
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0001015 ;
+						     owl:someValuesFrom obo:ENVO_00000022
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000706
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_02500028
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000793
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000792
+						   obo:ENVO_02500003
+						 )
+			    ] .
+
+obo:ENVO_01000797
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00010483
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000086 ;
+						     owl:someValuesFrom obo:PATO_0001547
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000814
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00010483
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000086 ;
+						     owl:someValuesFrom obo:PATO_0001546
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000815
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00010483
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000086 ;
+						     owl:someValuesFrom obo:PATO_0001548
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01000996
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002234 ;
+						     owl:someValuesFrom obo:ENVO_00000070
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01001044
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000254
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002507 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01001052
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000254
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002507 ;
+						     owl:someValuesFrom obo:ENVO_00010505
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01001053
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01001040
+						   obo:ENVO_01001052
+						 )
+			    ] .
+
+obo:ENVO_01001062
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000020
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0001025 ;
+						     owl:someValuesFrom obo:ENVO_00000514
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01001088
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00010505
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000086 ;
+						     owl:someValuesFrom obo:PATO_0001548
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01001089
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00010505
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000086 ;
+						     owl:someValuesFrom obo:PATO_0001546
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_01001122
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000800
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002473 ;
+						     owl:someValuesFrom obo:ENVO_01001155
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_02000049
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_00000063
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002220 ;
+						     owl:someValuesFrom obo:ENVO_00000303
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_02500014
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000057 ;
+						     owl:someValuesFrom obo:ENVO_00000111
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200000
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000146
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00010483
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200001
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000146
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00002005
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200003
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000049
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_01000793
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200004
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000973
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200005
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001019
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200008
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000025
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200009
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000141
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200010
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001842
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200012
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000146
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200013
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001822
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00001998
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_09200014
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000146
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0000052 ;
+						     owl:someValuesFrom obo:ENVO_00002006
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_1000748
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002234 ;
+						     owl:someValuesFrom obo:ENVO_00000098
+						   ]
+						 )
+			    ] .
+
+obo:ENVO_2100000
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:ENVO_01000254
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:ENVO_2100007 ;
+						     owl:someValuesFrom obo:UBERON_0001062
+						   ]
+						 )
+			    ] .
+
+obo:GO_0051705
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:GO_0007610
+						   obo:GO_0051704
+						 )
+			    ] .
+
+obo:IAO_0000408
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:IAO_0000109
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:IAO_0000221 ;
+						     owl:someValuesFrom obo:PATO_0000122
+						   ]
+						 )
+			    ] .
+
+obo:OBI_0000094
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:OBI_0000299 ;
+						     owl:someValuesFrom obo:OBI_0000047
+						   ]
+						 )
+			    ] .
+
+obo:OBI_0000659
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000015
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:OBI_0000299 ;
+						     owl:someValuesFrom obo:OBI_0100051
+						   ]
+						 )
+			    ] .
+
+obo:OBI_0000953
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:OBI_0000047
+						   obo:OBI_0100051
+						 )
+			    ] .
+
+obo:OBI_0001158
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:OBI_0000070
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:OBI_0000299 ;
+						     owl:someValuesFrom obo:OBI_0001167
+						   ]
+						 )
+			    ] .
+
+obo:OBI_0001167
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:IAO_0000109
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:IAO_0000221 ;
+						     owl:someValuesFrom obo:PATO_0000011
+						   ]
+						 )
+			    ] .
+
+obo:PATO_0000587
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000117
+						   obo:PATO_0002301
+						 )
+			    ] .
+
+obo:PATO_0001237
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000001
+						   obo:BFO_0000019
+						 )
+			    ] .
+
+obo:PATO_0001241
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:BFO_0000002
+						   obo:PATO_0000001
+						 )
+			    ] .
+
+obo:PATO_0001305
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000146
+						   obo:PATO_0002300
+						 )
+			    ] .
+
+obo:PATO_0001475
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000140
+						   obo:PATO_0002300
+						 )
+			    ] .
+
+obo:PATO_0001476
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0000140
+						   obo:PATO_0002301
+						 )
+			    ] .
+
+obo:PATO_0001657
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001655
+						   obo:PATO_0002300
+						 )
+			    ] .
+
+obo:PATO_0001688
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001475
+						   obo:PATO_0001687
+						 )
+			    ] .
+
+obo:PATO_0001689
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PATO_0001687
+						   obo:PATO_0002301
+						 )
+			    ] .
+
+obo:PO_0006079
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0009013
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:PO_0009006
+						   ]
+						 )
+			    ] .
+
+obo:PO_0006343
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0009006
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002202 ;
+						     owl:someValuesFrom obo:PO_0004709
+						   ]
+						 )
+			    ] .
+
+obo:PO_0007033
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0009012
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000057 ;
+						     owl:someValuesFrom obo:PO_0000003
+						   ]
+						 )
+			    ] .
+
+obo:PO_0020148
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0020144
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:PO_0009006
+						   ]
+						 )
+			    ] .
+
+obo:PO_0025007
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0025497
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000051 ;
+						     owl:someValuesFrom obo:PO_0009008
+						   ]
+						 )
+			    ] .
+
+obo:PO_0025028
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0009002
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:PO_0009009
+						   ]
+						 )
+			    ] .
+
+obo:PO_0025099
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0009011
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:PO_0009009
+						   ]
+						 )
+			    ] .
+
+obo:PO_0025128
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0025127
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:RO_0002202 ;
+						     owl:someValuesFrom obo:PO_0025430
+						   ]
+						 )
+			    ] .
+
+obo:PO_0025233
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0009007
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000050 ;
+						     owl:someValuesFrom obo:PO_0009009
+						   ]
+						 )
+			    ] .
+
+obo:PO_0025338
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0009012
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000057 ;
+						     owl:someValuesFrom obo:PO_0025007
+						   ]
+						 )
+			    ] .
+
+obo:PO_0025527
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:PO_0009012
+						   [ a owl:Restriction ;
+						     owl:onProperty obo:BFO_0000057 ;
+						     owl:someValuesFrom obo:PO_0009006
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000002
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000000
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0000125
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000003
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000000
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0001309
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000005
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000000
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0000146
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000051
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000000
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0000033
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000052
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000182
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0001019
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000054
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000182
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0001351
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000105
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000000
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0000044
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000111
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000000
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0001021
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000121
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000000
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0000133
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000122
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000121
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0000133
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000182
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000000
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0001019
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000183
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000182
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0001352
+						   ]
+						 )
+			    ] .
+
+obo:UO_0000217
+	owl:equivalentClass [ a owl:Class ;
+			      owl:intersectionOf ( obo:UO_0000000
+						   [ a owl:Restriction ;
+						     owl:onProperty uo:is_unit_of ;
+						     owl:someValuesFrom obo:PATO_0001464
+						   ]
+						 )
+			    ] .
+
+# Toplevel blank-nodes (284)
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33581 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33317
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33582 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33306
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33608 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_49637
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33659 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33655
+					     obo:CHEBI_72695
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33674 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33559
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33675 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33560
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000142 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000232
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33702 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_36358
+					     obo:CHEBI_36916
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33832 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33595
+					     obo:CHEBI_72695
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33958 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24866
+					     obo:CHEBI_37578
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33989 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24651
+					     obo:CHEBI_33299
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_35106 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_35881
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_25555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_35150 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24651
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22984
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_35156 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24866
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22984
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_35479 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24866
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22314
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_35604 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_35406
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_27594
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_35605 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24833
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_27594
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_35780 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_26078
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000192 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000915
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000092
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_35881 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33692
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33300
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_36093 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24839
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_17996
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_36358 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     obo:CHEBI_36357
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_36359 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33241
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:has_functional_parent ;
+					       owl:someValuesFrom obo:CHEBI_33457
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_36364 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24866
+					     obo:CHEBI_33299
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_36586 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_72695
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_23019
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_36587 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_72695
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_46629
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_36902 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33692
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_36914 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24835
+					     obo:CHEBI_24870
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_36915 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_36914
+					     obo:CHEBI_36916
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000199 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_37022 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_22563
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_33709
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_37622 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33256
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_23004
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_37826 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33241
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:has_functional_parent ;
+					       owl:someValuesFrom obo:CHEBI_26836
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_37838 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_22221
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_substituent_group_from ;
+					       owl:someValuesFrom obo:CHEBI_33575
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_38702 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24839
+					     obo:CHEBI_26714
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_39123 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_36916
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22984
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_39124 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22984
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_41609 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_17544
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_43474 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_35780
+					     obo:CHEBI_36914
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_24433
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_45696 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_acid_of ;
+					       owl:someValuesFrom obo:CHEBI_16189
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_26836
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000205 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001351
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000032
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_48107 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_49637
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_acid_of ;
+					       owl:someValuesFrom obo:CHEBI_17632
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_48154 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_25741
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26833
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_48359 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_15339
+					     obo:CHEBI_46787
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_51082 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24866
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_17632
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_51143 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_25555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_52625 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24835
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_43176
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_62946 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_35175
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_28938
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_63038 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_51084
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_28938
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000212 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000005
+					     obo:BFO_0000015
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_63043 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_51084
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26216
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_63051 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24838
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_28938
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_64205 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_51084
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22984
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_72695 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_25367
+					     obo:CHEBI_50860
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_78017 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_76414
+					     obo:CHEBI_78295
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_88276 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_16199
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_63038
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_91238 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_63038
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_64205
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000009 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000004
+					     obo:ENVO_00000123
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "narrow" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000213 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000005
+					     obo:BFO_0000015
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000019 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000020
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002473 ;
+					       owl:someValuesFrom obo:ENVO_00002010
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000063 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_01000799
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002473 ;
+					       owl:someValuesFrom obo:CHEBI_15377
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000090 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000086
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002131 ;
+					       owl:someValuesFrom obo:ENVO_00000303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000092 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000091
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002220 ;
+					       owl:someValuesFrom obo:ENVO_00000016
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000129 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000100
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:ENVO_00000023
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000137 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000475
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:ENVO_01001307 ;
+					       owl:someValuesFrom obo:ENVO_00000303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000156 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01001304
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000097
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000222 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000098
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002354 ;
+					       owl:someValuesFrom obo:ENVO_01000634
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000230 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000043
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000240 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000043
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:ENVO_00002010
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000223 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_00000002
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000243 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000043
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:ENVO_00002011
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000416 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000170
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0001025 ;
+					       owl:someValuesFrom obo:ENVO_00000303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000423 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000098
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0001025 ;
+					       owl:someValuesFrom obo:ENVO_00000022
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000424 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000098
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0001025 ;
+					       owl:someValuesFrom obo:ENVO_00000020
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000433 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000508
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0001025 ;
+					       owl:someValuesFrom obo:ENVO_00000542
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000450 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000009
+					     obo:ENVO_00000025
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000004 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000224
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000476 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000475
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000020
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00000485 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000304
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00001999 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000063
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000447
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00002015 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001995
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002354 ;
+					       owl:someValuesFrom obo:ENVO_01000634
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000224 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_00000004
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00002138 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000017
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00002199
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00002150 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00002006
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002220 ;
+					       owl:someValuesFrom obo:ENVO_00000303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "broad" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00002261 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001998
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000111
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00003914 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001998
+					     [ a owl:Restriction ;
+					       owl:onProperty envo:has_increased_levels_of ;
+					       owl:someValuesFrom obo:ENVO_00002054
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00005746 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001998
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000261
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00005747 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001998
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0001000 ;
+					       owl:someValuesFrom obo:ENVO_00002170
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00005749 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001998
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000078
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00005750 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001998
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000106
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00005755 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001998
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000114
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00005765 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00005747
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000086 ;
+					       owl:someValuesFrom obo:PATO_0001985
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000225 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_00000005
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00005777 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001998
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000262
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00005786 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00001998
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000182
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_00005800 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000017
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_00000097
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000143 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000130
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0001025 ;
+					       owl:someValuesFrom obo:ENVO_00001999
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000179 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000428
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:ENVO_00000097
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000181 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000428
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:ENVO_00000057
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000256 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00010483
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002473 ;
+					       owl:someValuesFrom obo:CHEBI_46662
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000277 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01001125
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002473 ;
+					       owl:someValuesFrom obo:ENVO_00002006
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000297 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000022
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:ENVO_00002011
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000305 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000254
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000086 ;
+					       owl:someValuesFrom obo:PATO_0001305
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000227 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_01000000
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000306 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000254
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002507 ;
+					       owl:someValuesFrom obo:ENVO_00002011
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000307 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01001040
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002507 ;
+					       owl:someValuesFrom obo:ENVO_00002006
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000314 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000254
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000086 ;
+					       owl:someValuesFrom obo:PATO_0001657
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000320 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000254
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:ENVO_2100001 ;
+					       owl:someValuesFrom obo:ENVO_00001999
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000321 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000254
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002507 ;
+					       owl:someValuesFrom obo:ENVO_00002149
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000376 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000111
+					     [ a owl:Restriction ;
+					       owl:onProperty envo:has_condition ;
+					       owl:someValuesFrom obo:ENVO_01000375
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 7
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000403 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000111
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:ENVO_01000181
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty envo:has_condition ;
+					       owl:someValuesFrom obo:ENVO_01000204
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000624 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000724
+					     obo:ENVO_02500031
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000652 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000650
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0001015 ;
+					       owl:someValuesFrom obo:ENVO_00000022
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000706 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_02500028
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000228 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_00000229
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000793 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000792
+					     obo:ENVO_02500003
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000797 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00010483
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000086 ;
+					       owl:someValuesFrom obo:PATO_0001547
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000814 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00010483
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000086 ;
+					       owl:someValuesFrom obo:PATO_0001546
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000815 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00010483
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000086 ;
+					       owl:someValuesFrom obo:PATO_0001548
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01000996 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002234 ;
+					       owl:someValuesFrom obo:ENVO_00000070
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01001044 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000254
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002507 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01001052 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000254
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002507 ;
+					       owl:someValuesFrom obo:ENVO_00010505
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01001053 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01001040
+					     obo:ENVO_01001052
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01001062 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000020
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0001025 ;
+					       owl:someValuesFrom obo:ENVO_00000514
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01001088 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00010505
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000086 ;
+					       owl:someValuesFrom obo:PATO_0001548
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000229 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000228
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01001089 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00010505
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000086 ;
+					       owl:someValuesFrom obo:PATO_0001546
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_01001122 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000800
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002473 ;
+					       owl:someValuesFrom obo:ENVO_01001155
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_02000049 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_00000063
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002220 ;
+					       owl:someValuesFrom obo:ENVO_00000303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_02500014 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:ENVO_00000111
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200000 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000146
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00010483
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200001 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000146
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00002005
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200003 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000049
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_01000793
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200004 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000973
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200005 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001019
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200008 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000025
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000231 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000230
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200009 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000141
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200010 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001842
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200012 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000146
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200013 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001822
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_09200014 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000146
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00002006
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_1000748 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002234 ;
+					       owl:someValuesFrom obo:ENVO_00000098
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 7
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:ENVO_2100000 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:ENVO_01000254
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:ENVO_2100007 ;
+					       owl:someValuesFrom obo:UBERON_0001062
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:GO_0051705 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:GO_0007610
+					     obo:GO_0051704
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:IAO_0000408 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:IAO_0000109
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:IAO_0000221 ;
+					       owl:someValuesFrom obo:PATO_0000122
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:OBI_0000094 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:OBI_0000299 ;
+					       owl:someValuesFrom obo:OBI_0000047
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000232 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_00000142
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:OBI_0000659 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:OBI_0000299 ;
+					       owl:someValuesFrom obo:OBI_0100051
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 7
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:OBI_0000953 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:OBI_0000047
+					     obo:OBI_0100051
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:OBI_0001158 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:OBI_0000070
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:OBI_0000299 ;
+					       owl:someValuesFrom obo:OBI_0001167
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:OBI_0001167 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:IAO_0000109
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:IAO_0000221 ;
+					       owl:someValuesFrom obo:PATO_0000011
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PATO_0000587 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000117
+					     obo:PATO_0002301
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PATO_0001237 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000001
+					     obo:BFO_0000019
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 2
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PATO_0001241 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000002
+					     obo:PATO_0000001
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PATO_0001305 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000146
+					     obo:PATO_0002300
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PATO_0001475 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000140
+					     obo:PATO_0002300
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PATO_0001476 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000140
+					     obo:PATO_0002301
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PATO_0001657 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001655
+					     obo:PATO_0002300
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PATO_0001688 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001475
+					     obo:PATO_0001687
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PATO_0001689 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001687
+					     obo:PATO_0002301
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000233 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_00000024
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0006079 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0009013
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:PO_0009006
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0006343 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0009006
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002202 ;
+					       owl:someValuesFrom obo:PO_0004709
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0007033 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0009012
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000057 ;
+					       owl:someValuesFrom obo:PO_0000003
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0020148 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0020144
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:PO_0009006
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0025007 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0025497
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:PO_0009008
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0025028 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0009002
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:PO_0009009
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "broad" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0025099 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0009011
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:PO_0009009
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0025128 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0025127
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0002202 ;
+					       owl:someValuesFrom obo:PO_0025430
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0025233 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0009007
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000050 ;
+					       owl:someValuesFrom obo:PO_0009009
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "broad" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0025338 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0009012
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000057 ;
+					       owl:someValuesFrom obo:PO_0025007
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000234 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_00000025
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:PO_0025527 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PO_0009012
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000057 ;
+					       owl:someValuesFrom obo:PO_0009006
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000002 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000000
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0000125
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000003 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000000
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0001309
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000005 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000000
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0000146
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000051 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000000
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0000033
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000052 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000182
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0001019
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000054 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000182
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0001351
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000105 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000000
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0000044
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000111 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000000
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0001021
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000121 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000000
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0000133
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000235 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_00000028
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000122 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000121
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0000133
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000182 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000000
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0001019
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000183 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000182
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0001352
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:UO_0000217 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:UO_0000000
+					     [ a owl:Restriction ;
+					       owl:onProperty uo:is_unit_of ;
+					       owl:someValuesFrom obo:PATO_0001464
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 7
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000005 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000225
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 7
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000236 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000416
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000056 ;
+					       owl:someValuesFrom obo:AGRO_00000111
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000299 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001323
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00000078
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000300 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001323
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_01000352
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000305 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000303
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty pato:reciprocal_of ;
+					       owl:someValuesFrom obo:PATO_0001555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000310 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000309
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty pato:reciprocal_of ;
+					       owl:someValuesFrom obo:PATO_0001555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000311 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000119
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000309
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000312 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000155
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty pato:reciprocal_of ;
+					       owl:someValuesFrom obo:PATO_0001555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000313 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000921
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000155
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000314 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000122
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000155
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000006 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000241
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000319 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000133
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000155
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000326 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000325
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty pato:reciprocal_of ;
+					       owl:someValuesFrom obo:PATO_0001555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000328 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000133
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00002000
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000356 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000122
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00000114
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 7
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000367 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0001687
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000360
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000439 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000092
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 3
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000440 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:AGRO_00000033
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00001998
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 3
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000468 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:PATO_0000921
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000052 ;
+					       owl:someValuesFrom obo:ENVO_00000114
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 7
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_01000000 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000227
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_01000019 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000369
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000325
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 7
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000028 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000235
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_13941 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_28616
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_15377 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24651
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_49637
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_16136 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26833
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_49637
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_16189 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_45696
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_17544 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_acid_of ;
+					       owl:someValuesFrom obo:CHEBI_41609
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_28976
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_17632 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_48107
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_17883 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_49637
+					     ]
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_acid_of ;
+					       owl:someValuesFrom obo:CHEBI_17996
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 4
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000058 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000062
+					     obo:BFO_0000015
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_17996 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_17883
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_17997 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_25555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_22916 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_27560
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_22985 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22984
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_23014 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_25741
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_27594
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_23114 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24866
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_17996
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_23117 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_23116
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_23905 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_22563
+					     obo:CHEBI_33238
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000059 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000062
+					     obo:BFO_0000015
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_23906 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33238
+					     obo:CHEBI_36916
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_24471 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_24473
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_24834 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_22563
+					     obo:CHEBI_36914
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_24836 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24835
+					     obo:CHEBI_25741
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_24838 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24835
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:has_functional_parent ;
+					       owl:someValuesFrom obo:CHEBI_26078
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_24839 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24835
+					     obo:CHEBI_24866
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_24840 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24835
+					     obo:CHEBI_35175
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_24867 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     obo:CHEBI_33238
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_25362 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_25367
+					     obo:CHEBI_33259
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_25696 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_22563
+					     obo:CHEBI_50860
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_25699 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24870
+					     obo:CHEBI_50860
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_25701 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_25741
+					     obo:CHEBI_72695
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000061 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000006
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000198
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_25806 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_25805
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_26079 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33241
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:has_functional_parent ;
+					       owl:someValuesFrom obo:CHEBI_26078
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_26082 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_28659
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_26217 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26216
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000002 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_01000015
+					     obo:BFO_0000015
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_26218 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24866
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26216
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_26710 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_26714
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_17996
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_26835 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26833
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_29067 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_22563
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_conjugate_base_of ;
+					       owl:someValuesFrom obo:CHEBI_33575
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000108 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000021
+					     obo:BFO_0000015
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_29103 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_36916
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26216
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_29310 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_23116
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_32588 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23114
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26216
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_3311 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_46721
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22984
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33242 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24835
+					     obo:CHEBI_33692
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33247 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24433
+					     [ a owl:Restriction ;
+					       owl:onProperty chebi:is_substituent_group_from ;
+					       owl:someValuesFrom obo:CHEBI_50860
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33267 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33465
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_25555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33273 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_22563
+					     obo:CHEBI_36358
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000109 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000021
+					     obo:BFO_0000015
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33296 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22314
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33299 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22313
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33302 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33300
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33304 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33306 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33250
+					     obo:CHEBI_33318
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33317 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33250
+					     obo:CHEBI_33318
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33402 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24833
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26833
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33408 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24833
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33300
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000110 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:AGRO_00000021
+					     obo:BFO_0000015
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 5
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33424 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33241
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26833
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33429 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33238
+					     obo:CHEBI_36830
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 6
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33431 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33434
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_23116
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33432 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33433
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_23116
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33455 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24833
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_25555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33457 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24833
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_28659
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33458 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_35406
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_25555
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33459 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_35406
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33300
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33461 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_35406
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_28659
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33482 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_35406
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26833
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:AGRO_00000112 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:BFO_0000015
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:RO_0000057 ;
+					       owl:someValuesFrom obo:AGRO_00000197
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33484 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_24833
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33485 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_35406
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33303
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33513 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_36915
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_22313
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "related" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33535 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_33692
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_26833
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "exact" ;
+  inca:score 8
+] .
+[ a owl:Axiom ;
+  rdfs:comment "Autogenerated" ;
+  owl:annotatedProperty owl:equivalentClass ;
+  owl:annotatedSource obo:CHEBI_33579 ;
+  owl:annotatedTarget [ a owl:Class ;
+			owl:intersectionOf ( obo:CHEBI_23367
+					     [ a owl:Restriction ;
+					       owl:onProperty obo:BFO_0000051 ;
+					       owl:someValuesFrom obo:CHEBI_33318
+					     ]
+					   )
+		      ] ;
+  inca:annotationPropertyUsed "label" ;
+  inca:score 8
+] .

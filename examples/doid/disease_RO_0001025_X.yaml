@@ -1,0 +1,44 @@
+# options: [min(25),dir('examples/doid'),trim(true),base('http://purl.obolibrary.org/obo/doid'),generalize_properties(true),max_and_cardinality(4),max_class_signature(5),annotations([ann(exact_synonym,oio:hasExactSynonym,0.05),ann(related_synonym,oio:hasRelatedSynonym,0.05)])]
+pattern_name: disease RO_0001025 X
+pattern_iri: http://purl.obolibrary.org/obo/doid/disease_RO_0001025_X
+
+description: >-
+  This is auto-generated. Add your description here
+
+  Examples: [motor neuron disease](http://purl.obolibrary.org/obo/DOID_231), [blood platelet disease](http://purl.obolibrary.org/obo/DOID_2218), [leukocyte disease](http://purl.obolibrary.org/obo/DOID_9500) (142 total)
+
+classes: 
+  disease: "http://purl.obolibrary.org/obo/DOID_4"
+  owl:Thing: "owl:Thing"
+
+
+relations: 
+  RO_0001025: "RO:0001025"
+
+
+vars:
+  v0: "'owl:Thing'"
+
+name:
+  # Could not induce name, using default
+  text: "disease RO_0001025 %s"
+  vars:
+    - v0
+
+def:
+  # Could not induce def, using default
+  text: "Any disease that RO_0001025 a %s"
+  vars:
+    - v0
+
+annotationProperties:
+  exact_synonym: "oio:hasExactSynonym"
+  related_synonym: "oio:hasRelatedSynonym"
+
+# could not infer annotations
+
+
+equivalentTo:
+  text: "('disease' and ('RO_0001025' some %s))"
+  vars:
+    - v0

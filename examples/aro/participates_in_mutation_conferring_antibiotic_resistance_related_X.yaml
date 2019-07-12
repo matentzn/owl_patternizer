@@ -1,0 +1,45 @@
+# options: [min(4),dir('examples/aro'),trim(true),base('http://purl.obolibrary.org/obo/aro'),generalize_properties(false),max_and_cardinality(4),max_class_signature(4),annotations([ann(exact_synonym,oio:hasExactSynonym,0.05),ann(related_synonym,oio:hasRelatedSynonym,0.05)])]
+pattern_name: participates_in mutation conferring antibiotic resistance related X
+pattern_iri: http://purl.obolibrary.org/obo/aro/participates_in_mutation_conferring_antibiotic_resistance_related_X
+
+description: >-
+  This is auto-generated. Add your description here
+
+  Examples: [Enterococcus faecalis gshF with mutation conferring daptomycin resistance](http://purl.obolibrary.org/obo/ARO_3003805), [Clostridium difficile rpoB with mutation conferring resistance to rifampicin](http://purl.obolibrary.org/obo/ARO_3004563), [Mycobacterium leprae folP with mutation conferring resistance to dapsone](http://purl.obolibrary.org/obo/ARO_3003389) (4 total)
+
+classes: 
+  antibiotic molecule: "http://purl.obolibrary.org/obo/ARO_1000003"
+  mutation conferring antibiotic resistance: "http://purl.obolibrary.org/obo/ARO_3000212"
+
+
+relations: 
+  participates_in: "http://purl.obolibrary.org/obo/RO#_participates_in"
+  related: "skos:related"
+
+
+vars:
+  v0: "'antibiotic molecule'"
+
+name:
+  # Induced, frequency=0.25, p=http://www.w3.org/2000/01/rdf-schema#label 
+  text: "Clostridium difficile rpoB with mutation conferring resistance to %s"
+  vars:
+    - v0
+
+def:
+  # Induced, frequency=0.25, p=http://purl.obolibrary.org/obo/IAO_0000115 
+  text: "%s inhibits bacterial synthesis of dihydrofolic acid by competing with with para-aminobenzoate for the active site of dihydropteroate synthetase. Point mutation within the Mycobacterium leprae folP gene results in lowered affinity of dapsone for folP."
+  vars:
+    - v0
+
+annotationProperties:
+  exact_synonym: "oio:hasExactSynonym"
+  related_synonym: "oio:hasRelatedSynonym"
+
+# could not infer annotations
+
+
+equivalentTo:
+  text: "(('participates_in' some 'mutation conferring antibiotic resistance') and ('related' some %s))"
+  vars:
+    - v0

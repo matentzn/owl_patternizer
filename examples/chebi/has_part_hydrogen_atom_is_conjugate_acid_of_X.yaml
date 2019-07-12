@@ -1,11 +1,11 @@
-# options: [min(3),dir(chebi),trim(true),base('http://purl.obolibrary.org/obo/chebi'),generalize_properties(false),max_and_cardinality(4),max_class_signature(5),annotations([ann(exact_synonym,oio:hasExactSynonym,0.05),ann(related_synonym,oio:hasRelatedSynonym,0.05)])]
+# options: [min(4),dir('examples/chebi'),trim(true),base('http://purl.obolibrary.org/obo/chebi'),generalize_properties(false),max_and_cardinality(4),max_class_signature(5),annotations([ann(exact_synonym,oio:hasExactSynonym,0.05),ann(related_synonym,oio:hasRelatedSynonym,0.05)])]
 pattern_name: has part hydrogen atom is conjugate acid of X
 pattern_iri: http://purl.obolibrary.org/obo/chebi/has_part_hydrogen_atom_is_conjugate_acid_of_X
 
 description: >-
   This is auto-generated. Add your description here
 
-  Examples: [pyrocatechol sulfate](http://purl.obolibrary.org/obo/CHEBI_68505), [quinol sulfate](http://purl.obolibrary.org/obo/CHEBI_71062), [(3alpha,5alpha,17beta)-3-hydroxyandrostan-17-yl sulfate](http://purl.obolibrary.org/obo/CHEBI_133103) (33 total)
+  Examples: [nitrous acid](http://purl.obolibrary.org/obo/CHEBI_25567), [hydrogen iodide](http://purl.obolibrary.org/obo/CHEBI_43451), [hydrogen fluoride](http://purl.obolibrary.org/obo/CHEBI_29228) (9 total)
 
 classes: 
   anion: "http://purl.obolibrary.org/obo/CHEBI_22563"
@@ -21,14 +21,14 @@ vars:
   v0: "'anion'"
 
 name:
-  # Induced, frequency=0.30303030303030304, p=http://www.w3.org/2000/01/rdf-schema#label 
-  text: "%s"
+  # Induced, frequency=0.5555555555555556, p=http://www.w3.org/2000/01/rdf-schema#label 
+  text: "hydrogen %s"
   vars:
     - v0
 
 def:
-  # Could not induce def, using default
-  text: "Any has part a hydrogen atom that is conjugate acid of a %s"
+  # Induced, frequency=0.1111111111111111, p=http://purl.obolibrary.org/obo/IAO_0000115 
+  text: "A d%satomic molecule containing covalently bonded hydrogen and iodine atoms."
   vars:
     - v0
 
@@ -44,12 +44,12 @@ annotations:
       - v0
   - annotationProperty: related_synonym
     # Induced p=related_synonym 
-    text: "%s"
+    text: "H%s"
     vars:
       - v0
 
 
 equivalentTo:
-  text: "('has part' some 'hydrogen atom') and ('is conjugate acid of' some %s)"
+  text: "(('has part' some 'hydrogen atom') and ('is conjugate acid of' some %s))"
   vars:
     - v0
