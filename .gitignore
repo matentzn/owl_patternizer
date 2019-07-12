@@ -11,4 +11,4 @@ examples/*/_input.ttl
 examples/*/_induced_axioms_merged.ttl
 examples/*/_src.ttl
 *.old
-DS_Store
+.DS_Store
