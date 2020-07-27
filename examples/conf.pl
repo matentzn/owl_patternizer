@@ -25,7 +25,7 @@
 :- use_module(library(semweb/rdf_cache)).
 :- use_module(library(semweb/rdf11)).
 :- use_module(library(semweb/rdf_library)).
-:- use_module(library(semweb/rdf_turtle)).
+:- use_module(library(semweb/turtle)).
 :- use_module(library(semweb/rdf_ntriples)).
 
 :- rdf_register_prefix('UBERON','http://purl.obolibrary.org/obo/UBERON_').
@@ -45,13 +45,14 @@
 :- rdf_register_prefix('NCIT','http://purl.obolibrary.org/obo/NCIT_').
 :- rdf_register_prefix('NIFEXT','http://uri.neuinfo.org/nif/nifstd/nifext_').
 :- rdf_register_prefix('oio','http://www.geneontology.org/formats/oboInOwl#').
+:- rdf_register_prefix('gcmd','https://gcmdservices.gsfc.nasa.gov/kms/concept/').
 
 :- debug(index).
 :- debug(autolabel).
 :- debug(def).
 :- debug(patternizer).
 
-:- [tests/stacktrace].
+%:- [tests/stacktrace].
 
 % ----------------------------------------
 % settings for each ontology
@@ -62,12 +63,13 @@ ontology_config(pizza,    [min(2), base('http://purl.obolibrary.org/obo/pizza/')
 ontology_config(pato,     [infer_axioms(true), min(5), generalize_properties(false), ontology_prefix(pato)]).
 
 ontology_config(wine,     [min(2)]).
+ontology_config(cco,      [infer_axioms(true), min(3), load_import_closure(false), generalize_properties(false)]).
 
 ontology_config(so,       [min(8)]).
 ontology_config(mso,      [min(5), max_class_signature(6), generalize_properties(false)]).
 %ontology_config(chebi,    [min(3), remove_inexact_synonyms(true), infer_axioms(true), generalize_properties(false)]).
 ontology_config(chebi,    [min(4), remove_chemical_synonyms(true), mutate_chebi(true), infer_axioms(true), generalize_properties(false)]).
-ontology_config(uberon,   [min(50), max_and_cardinality(3)]).
+ontology_config(uberon,   [min(8), generalize_properties(false), max_and_cardinality(3)]).
 ontology_config(cl,       [min(20), ontology_prefix(cl)]).
 ontology_config(nif_cell, [min(10), imports([uberon]), infer_axioms(true), base('http://ontology.neuinfo.org/NIF/ttl/NIF-Cell.ttl'), ontology_prefix(nifext)]).
 ontology_config(nif,      [min(20), base('http://ontology.neuinfo.org/NIF/ttl/nif.ttl'),  ontology_prefix(nifext)]).
@@ -75,7 +77,7 @@ ontology_config(clo,      [min(20), ontology_prefix(clo)]).
 ontology_config(eco,      [min(10), ontology_prefix(eco)]).
 ontology_config(fbbt,     [min(50), generalize_properties(false)]).
 ontology_config(fbcv,     [infer_axioms(true), min(5), generalize_properties(false)]).
-ontology_config(mondo,    []).
+ontology_config(mondo,    [infer_axioms(true), min(4), generalize_properties(false), remove_inexact_synonyms(true)]).
 ontology_config(geo,      []).
 ontology_config(fao,      [infer_axioms(true), min(5), generalize_properties(false)]).
 ontology_config(ma,       [infer_axioms(true), min(12), generalize_properties(false)]).
@@ -128,7 +130,9 @@ ontology_config(ceph,     [min(8), generalize_properties(false)]).
 ontology_config(flopo,    [min(50), generalize_properties(false)]).
 ontology_config(agrovoc,  [infer_axioms(true), min(6), generalize_properties(false)]).
 ontology_config(mesh,     [infer_axioms(true), min(6), generalize_properties(false)]).
+ontology_config(medgen,   [infer_axioms(true), min(5), generalize_properties(false)]).
 ontology_config(gemet,    [is_skos(true), infer_links(true),new_class_prefix('http://x.org/'), infer_axioms(true), min(5), generalize_properties(false)]).
+ontology_config(gcmd,     [is_skos(true), infer_links(true),new_class_prefix('http://x.org/'), infer_axioms(true), min(3), generalize_properties(false)]).
 
 autolabels :-
         forall(owl:class(C),
@@ -200,20 +204,20 @@ do_for(Ont) :-
         make_directory_path(Dir),
         
         concat_atom([Dir,'_src.ttl'], '/', SrcFile),
-        rdf_turtle:rdf_save_turtle(SrcFile,[]),
+        rdf_save_turtle(SrcFile,[]),
         
         option(is_skos(IsSkos),Options,false),
         (   IsSkos
         ->  inject_owl_axioms(skos2owl),
             concat_atom([Dir,'_owl.ttl'], '/', OwlFile),
-            rdf_turtle:rdf_save_turtle(OwlFile,[graph(skos2owl)])
+            rdf_save_turtle(OwlFile,[graph(skos2owl)])
         ;   true),
         
         option(infer_links(IsInferLinks),Options,false),
         (   IsInferLinks
         ->  infer_links(Options),
             concat_atom([Dir,'_links.ttl'], '/', LinksFile),
-            rdf_turtle:rdf_save_turtle(LinksFile,[graph(sc)])
+            rdf_save_turtle(LinksFile,[graph(sc)])
         ;   true),
         
         option(infer_axioms(IsInfer),Options,false),
@@ -221,15 +225,16 @@ do_for(Ont) :-
         ->  create_bitmap_index,
             assert_inferred_equiv_axioms(_,gen,[ new_only(true)|Options ]),
             concat_atom([Dir,'_induced_axioms.ttl'], '/', AxFile),
-            rdf_turtle:rdf_save_turtle(AxFile,[graph(gen)]),
+            rdf_save_turtle(AxFile,[graph(gen)]),
             concat_atom([Dir,'_induced_axioms_merged.ttl'], '/', MergedAxFile),
-            rdf_turtle:rdf_save_turtle(MergedAxFile,[])
+            rdf_save_turtle(MergedAxFile,[])
         ;   true),
 
         concat_atom([Dir,'_input.ttl'], '/', OwlFile),
-        rdf_turtle:rdf_save_turtle(OwlFile,[]),
+        rdf_save_turtle(OwlFile,[]),
             
         % TODO: merge options
+        option(load_import_closure(IsLoadImports),Options,true),
         option(min(Min),Options,40),
         option(base(Base),Options,DefaultBase),
         option(generalize_properties(GP),Options,true),
@@ -240,6 +245,7 @@ do_for(Ont) :-
                            dir(Dir),
                            trim(true),
                            base(Base),
+                           load_import_closure(IsLoadImports),
                            generalize_properties(GP),
                            max_and_cardinality(MAC),
                            max_class_signature(MCS),
